@@ -1,0 +1,14 @@
+.nav-list {
+  list-style-type: none;;
+}
+
+.nav-list-item {
+  margin-bottom: 5px;
+}
+
+.nav-item {
+  text-decoration: none;
+  &.active {
+    color: #f00;
+  }
+}
