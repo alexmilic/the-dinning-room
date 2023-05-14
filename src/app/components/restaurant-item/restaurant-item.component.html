@@ -1,1 +1,12 @@
-<p>restaurant-item works!</p>
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">{{ restaurant.name }}</h4>
+    <span>Cousine: {{ restaurant.cuisine }}</span>
+    <p class="card-text">{{ restaurant.description }} </p>
+    <span>Location:</span>
+    <address>
+      {{ restaurant.location }}
+    </address>
+    <a href="javascript:;" class="btn btn-primary">See Menu</a>
+  </div>
+</div>

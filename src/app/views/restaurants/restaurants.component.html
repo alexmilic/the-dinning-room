@@ -1,5 +1,6 @@
-<p>restaurants works!</p>
+<div class="row">
+  <div class="restaurant-card col-4" *ngFor="let restaurant of restaurants.results">
+    <app-restaurant-item [restaurant]="restaurant"></app-restaurant-item>
+  </div>
 
-<div *ngFor="let restaurant of restaurants.results">
-  <app-restaurant-item [restaurant]="restaurant"></app-restaurant-item>
 </div>
