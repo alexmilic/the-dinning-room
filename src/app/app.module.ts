@@ -8,6 +8,8 @@ import { HomeComponent } from './views/home/home.component';
 import { RestaurantsComponent } from './views/restaurants/restaurants.component';
 import { BannerComponent } from './core/banner/banner.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
+import { RestaurantItemComponent } from './components/restaurant-item/restaurant-item.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,11 +17,13 @@ import { NavbarComponent } from './core/navbar/navbar.component';
     HomeComponent,
     RestaurantsComponent,
     BannerComponent,
-    NavbarComponent
+    NavbarComponent,
+    RestaurantItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgbModule
   ],
   providers: [],

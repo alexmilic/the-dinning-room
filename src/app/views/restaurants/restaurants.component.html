@@ -1,1 +1,5 @@
 <p>restaurants works!</p>
+
+<div *ngFor="let restaurant of restaurants.results">
+  <app-restaurant-item [restaurant]="restaurant"></app-restaurant-item>
+</div>
